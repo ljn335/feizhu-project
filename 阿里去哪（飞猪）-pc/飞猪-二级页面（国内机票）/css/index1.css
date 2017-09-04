@@ -1,0 +1,816 @@
+body{
+	background-color:#ededed;
+}
+.content{
+	width:990px;
+	margin:0px auto;
+	padding-top:40px;
+}
+/*banner-搜索框*/
+.content .form_banner{
+	width:100%;
+	/*height:295px;*/
+	/*margin-bottom:20px;*/
+}
+/*banner-搜索框------左边*/
+.form_banner .content_left{
+	float:left;
+	width:388px;
+	height:293px;
+	border:1px solid #e3e6ea;
+}
+/*banner-搜索框------左边-----头部*/
+.content_left .content_left_head{
+	height:42px;
+	border-bottom:1px solid #e3e6ea;
+	padding-left:15px;
+	font-size:14px;
+	line-height:40px;
+	font-family:"微软雅黑";
+}
+.content_left_head .address_type,.content_left_head .line{
+	float:left;
+}
+.content_left_head .address_type{
+	color:#13334d;
+	padding:0px 10px;
+}
+.content_left_head .line{
+	width:1px;
+	height:14px;
+	background-color:#dcdde0;
+	margin-top:14px;
+}
+.content_left_head .china{
+	border-bottom:3px solid #5eb5f1;
+}
+
+/*banner-搜索框------左边-----主体*/
+.content_left_main{
+	height:216px;
+	padding:0px 20px;
+	font-size: 12px;
+	color:#4e5662;
+	position:relative;
+}
+.content_left_main div{
+	position:absolute;
+}
+/*.content_left_main form{
+	display:inline;
+}*/
+.content_left_main .radio_chose{
+	height:25px;
+	left:20px;
+	top:15px;
+	line-height:25px;
+}
+.radio_chose input{
+    margin:6px 6px 0px 0px;
+}
+.start_city,.start_time,.arrive_city,.arrive_time{
+	width:160px;
+	height:60px;
+}
+.content_left_main .start_city{
+	left:20px;
+	top:40px;
+	z-index:2;
+}
+.content_left_main .start_time{
+	right:20px;
+	top:40px;
+}
+.content_left_main .arrive_city{
+	left:20px;
+	top:100px;
+	z-index:2;
+}
+.content_left_main .arrive_time{
+	right:20px;
+	top:100px;
+}
+.content_left_main .top_text{
+	position:absolute;
+	left:0px;
+	top:0px;
+	line-height:20px;
+}
+.content_left_main .city_time{
+	position:absolute;
+	left:0px;
+	top:20px;
+	width:158px;
+	height:28px;
+	border:1px solid #c7d1e4;
+	border-radius:3px;
+	font-size:14px;
+	line-height:26px;
+	font-family:arial,宋体;
+	background:url(../img/form_bg.png) repeat-x;
+	padding-left:4px;
+	color:#4e5662;
+}
+.form_pic{
+	left:20px;
+	top:171px;
+}
+.form_pic .form_img{
+	display:block;
+	width:160px;
+	height:24px;
+	background:url(../img/form_img.png) no-repeat;
+}
+.form_search{
+	right:28px;
+	bottom:17px;
+}
+.form_search a{
+	display:block;
+	width:161px;
+	height:34px;
+	border-radius: 3px;
+	background-color:#63b8f0;
+	font-size:16px;
+	line-height:34px;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+}
+.form_change{
+	left:180px;
+	top:77px;
+}
+.form_change a{
+	position:absolute;
+	left:0px;
+	top:0px;
+	display:block;
+	width:25px;
+	height:65px;
+	overflow:hidden;
+}
+
+/*banner-搜索框------左边-----底部*/
+.content_left .content_left_foot{
+	height:33px;
+	border-top:1px solid #e3e6eb;
+	font:12px/24px "微软雅黑";
+	color:#13334d;
+	padding-left:18px;
+}
+.content_left_foot i,.content_left_foot span{
+	float:left;
+}
+.content_left_foot i{
+	width:13px;
+	height:19px;
+	background:url(../img/dolownd_mobie.png) no-repeat;
+	margin-top:5px;
+	margin-right:7px;
+}
+.content_left_foot span{
+	margin-top:4px;
+}
+
+
+/*banner-搜索框------右边*/
+.form_banner .content_right{
+	float:right;
+	width:590px;
+	height:295px;
+}
+.content_right .content_right_top{
+	width:100%;
+	height:230px;
+	position:relative;
+}
+.content_right_top_img{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:230px;
+	overflow:hidden;
+}
+.content_right_top .btn{
+	position:absolute;
+	left:0px;
+	bottom:14px;
+	width:100%;
+	height:18px;
+}
+.content_right_top .btn div{
+	float:right;
+}
+.content_right_top .btn div a{
+	float:left;
+	width:18px;
+	height:18px;
+	border-radius:9px;
+	background-color:#8b8b8b;
+	margin-right:14px;
+}
+
+.content_right .content_right_bottom{
+	height:65px;
+}
+.content_right_bottom_left,.content_right_bottom_right{
+	float:left;
+}
+/*.content_right_bottom .content_right_bottom_left{
+	width:40%;
+}*/
+.content_right_bottom .content_right_bottom_left a{
+	display:block;
+	width: 110px;
+    height: 36px;
+    margin: 13px 20px;
+	background:url(../img/form_right_bottom_left.png) no-repeat;
+}
+.content_right_bottom .content_right_bottom_right{
+	width:440px;
+	height:65px;
+}
+.content_right_bottom_right li{
+	float:left;
+	border-left:1px solid #c7d3df;
+	font:12px/18px "微软雅黑";
+	padding:0 15px;
+    height:80%;
+    margin:6px 0;
+}
+.content_right_bottom_right a{
+	display:inline-block;
+	text-align:center;
+	color:#3b5d84;
+	margin-top:6px;
+}
+.content_right_bottom_right span{
+	display:block;
+}
+.content_right_bottom_right .margin_top_15px{
+	margin-top:9px;
+}
+
+.content .sale_flight{
+	border:1px solid #dedede;
+	padding:0px 20px;
+}
+.sale_flight .sale_flight_head{
+	color:#13334d;
+}
+.sale_flight_head .sale_flight_head_left{
+	float:left;
+}
+.sale_flight_head_left h3,.sale_flight_head_left form{
+	float:left;
+}
+
+.sale_flight_head_left h3{
+	font:20px/53px "微软雅黑";
+}
+.city_name,.head_left_arrive,.head_left_days{
+	height:28px;
+	border:1px solid #c7d1e4;
+	border-radius:3px;
+}
+.sale_flight_head_left form .city_name{
+	width:94px;
+	padding-left:4px;
+	color:#000;
+	margin-top:13px;
+	margin-left:20px;
+}
+.sale_flight_head_left form .head_left_arrive{
+	width:48px;
+	color:#13334d;
+	margin-left:9px;
+}
+.sale_flight_head_left form .head_left_days{
+	width:91px;
+	color:#13334d;
+	margin-left:10px;
+}
+.sale_flight_head .sale_flight_head_right{
+	float:right;
+	padding-right:9px;
+	font:12px/53px "微软雅黑";
+}
+.sale_flight_head_right a{
+	color:#355976;
+}
+.sale_flight_list{
+
+}
+.sale_flight_list .sale_flight_item{
+	float:left;
+    width:33%;
+    height:40px;
+	border-right:1px dotted #dedede;
+	font:12px/30px "微软雅黑";
+}
+.sale_flight_list .no_border_bottom{
+	border-right:0px;
+}
+.sale_flight_item a{
+	display:block;
+	height:30px;
+    line-height:30px;
+    margin:5px;
+    color:#355976;
+    position:relative;
+}
+.sale_flight_item a span{
+	position:absolute;
+}
+.sale_flight_item a .sale_flight_item_city{
+	left:5px;
+	top:0px;
+}
+.sale_flight_item a .sale_flight_item_date{
+	left:120px;
+	top:0px;
+	color:#808080;
+}
+.sale_flight_item a .sale_flight_item_price{
+	left:204px;
+	top:0px;
+	font-size:22px;
+	color:#ff5741;
+}
+.sale_flight_item a .sale_flight_item_discount{
+	left:261px;
+	top:0px;
+	color:#808080;
+}
+
+.content .Ticket_endorsed,.content .insurance{
+	padding: 27px 30px;
+}
+.Ticket_endorsed .Ticket_endorsed_left{
+	float:left;
+	width:340px;
+    border-right:1px dotted #dedede;
+    padding-right:20px;
+}
+.Ticket_endorsed_left .Ticket_endorsed_left_head{
+	width:340px;
+    padding:5px 0 15px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.Ticket_endorsed_left_head .Ticket_endorsed_left_head_item{
+	float:left;
+	padding-left:23px;
+    position:relative;
+    margin-right:57px;
+    font:12px/18px "宋体";
+    background:url(../img/Ticket_endorsed_left_head_ico1.png) no-repeat;
+}
+.Ticket_endorsed_left_head .no_margin_right_57px{
+	margin-right:0px;
+}
+.Ticket_endorsed_left_head_item a{
+	color:#355976;
+	font-weight:bold;
+}
+.Ticket_endorsed_left_list{
+	margin-top:10px;
+    /*width:340px;*/
+    font-size:12px;
+    margin-right:-20px;
+}
+.Ticket_endorsed_left_list .Ticket_endorsed_left_item{
+	float:left;
+	height:26px;
+    line-height:26px;
+    padding-left:21px;
+    margin-right:20px;
+    background:url(../img/Ticket_endorsed_left_item_ico1.png) no-repeat 0px 5px;
+}
+.Ticket_endorsed_left_item a{
+	color:#355976;
+}
+
+.Ticket_endorsed .Ticket_endorsed_right{
+	float:right;
+	width:557px;
+}
+.Ticket_endorsed_right .Ticket_endorsed_right_img{
+	float:left;
+}
+.Ticket_endorsed_right_img a{
+	display:block;
+	width:200px;
+	height:100px;
+	overflow:hidden;
+}
+.Ticket_endorsed_right .Ticket_endorsed_right_text{
+	float:left;
+	margin-left:10px;
+	font-family:arial,"宋体";
+}
+.Ticket_endorsed_right_text h5{
+	font-size:14px;
+    height:55px;
+}
+.Ticket_endorsed_right_text a{
+	color:#355976;
+}
+.Ticket_endorsed_right_text .s_price{
+	color:#888888;
+	font-size:12px;
+	line-height:14px;
+}
+.price_buy span,.price_buy a{
+	float:left;
+}
+.price_buy .num_1{
+	font-size:26px;
+	line-height:30px;
+	color:#ff8800;
+	margin-right:8px;
+}
+.price_buy .num_2{
+	color:#888888;
+	font-size:12px;
+	line-height:18px;
+	margin-top:10px;
+	margin-right:8px;
+}
+.price_buy .buy{
+	width:43px;
+	height:20px;
+	border:1px solid #dcdcdc;
+	font-size:12px;
+	line-height:20px;
+	text-align:center;
+	margin-top:6px;
+}
+
+.insurance .insurance_left{
+	float:left;
+	width:340px;
+	height:78px;
+	padding:10px;
+	border:1px solid #dfdfdf;
+}
+.insurance_left .insurance_left_head{
+	font:16px/18px "微软雅黑";
+	color:#646464;
+}
+.insurance_left form{
+	margin-top:7px;
+}
+.insurance_left form select{
+	height:28px;
+	border:1px solid #c7d1e4;
+	border-radius:3px;
+	color:#4a4a4a;
+}
+.insurance_left form .choose_1{
+	width:154px;
+}
+.insurance_left form .choose_2{
+	width:94px;
+}
+.insurance_left form .buy{
+	display:inline-block;
+	width:54px;
+	height:20px;
+	font-size:12px;
+	line-height:20px;
+	border:1px solid #e2e2e3;
+	color:#4a4a4a;
+	text-align:center;
+}
+.insurance_left .insurance_left_foot{
+	height:0px;
+	background:url(../img/insurance_left_foot_bg.png) no-repeat;
+	padding-top:18px;
+	overflow:hidden;
+	margin-top:12px;
+}
+
+.insurance .insurance_right{
+	float:right;
+	margin-left:13px;
+}
+.insurance_right .insurance_right_item{
+	float:left;
+	width:270px;
+    height:100px;
+    position:relative;
+}
+.insurance_right_item .insurance_right_item_img{
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.insurance_right_item_img a{
+	display: block;
+	width: 100px;
+	height: 100px;
+	overflow:hidden;
+}
+.insurance_right_item .insurance_right_item_text{
+	/*float:left;*/
+	width:160px;
+	height:100px;
+	position:absolute;
+	left:110px;
+	top:0px;
+}
+.insurance_right_item_text h5{
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-size:14px;
+	line-height:22px;
+}
+.insurance_right_item_text a{
+	color:#355976;
+}
+.insurance_right_item_text .info{
+	position:absolute;
+	left:0px;
+	top:28px;
+	color: #888;
+    font-size:12px;
+	line-height:18px;
+}
+.insurance_right_item_text .look{
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	width:54px;
+	height:20px;
+	font-size:12px;
+	line-height:20px;
+	border:1px solid #e2e2e3;
+	color:#4a4a4a;
+	text-align:center;
+}
+
+
+.star_shop{
+	padding: 10px 30px 30px;
+}
+.star_shop h3{
+	font:20px/36px "微软雅黑";
+	color:#13334d;
+}
+.star_shop_content{
+	width:928px;
+	height:85px;
+}
+.btn_left,.btn_right,.btn_main{
+	float:left;
+}
+.btn_left,.btn_right{
+	border:1px solid #dddddd;
+}
+.star_shop_content .btn_left{
+	width:30px;
+	height:85px;
+	background:url(../img/star_shop_btn_left.png) no-repeat 11px 37px;
+}
+.btn_left a,.btn_right a{
+	display:inline-block;
+	width:30px;
+	height:85px;
+}
+.star_shop_content .btn_main{
+	height:85px;
+	border-top:1px solid #dddddd;
+	border-bottom:1px solid #dddddd;
+}
+.btn_main a{
+	float:left;
+	width:107px;
+	height:75px;
+	padding-top:10px;
+	border-right:1px solid #f4f4f4;
+	overflow: hidden;
+	text-align:center;
+	color:#4a4a4a;
+	font:12px/20px "宋体";
+}
+.btn_main a img{
+	display:block;
+	height:50px;
+	margin:0px auto;
+}
+.btn_main .no_border_right{
+	border-right:0px;
+}
+.star_shop_content .btn_right{
+	width:30px;
+	height:85px;
+	background:url(../img/star_shop_btn_right.png) no-repeat 11px 37px;
+}
+
+.aviation_flagship h3{
+	padding-left:30px;
+    height:56px;
+    font:18px/56px "微软雅黑";
+}
+.aviation_flagship .aviation_flagship_content{
+	height: 424px;
+}
+.aviation_flagship_content .aviation_flagship_content_left{
+	float:left;
+}
+.aviation_flagship_content_left .aviation_logo{
+	float:left;
+	width:57px;
+	height:424px;
+	border-right:3px solid #f6f6f6;
+}
+.aviation_logo .aviation_logo_list{
+	width:45px;
+	margin-left:6px;
+	float:left;
+}
+.aviation_logo_list .aviation_logo_list_item{
+	width:45px;
+	height:37px;
+	border-bottom:1px solid #f2f4f6;
+	background:url(../img/aviation_logo_list.png) no-repeat;
+}
+.aviation_flagship_content_left .aviation_logo_text{
+	float:left;
+	width:281px;
+	height:410px;
+	padding:15px 22px 0px;
+	background-color:#f2f2f2;
+}
+/*.aviation_logo_text .aviation_logo_text_logo{
+	width: 250px;
+    height: 94px;
+    margin: 15px 10px 0 8px;
+    background-color: #fff;
+}*/
+.aviation_logo_text_logo a{
+	width:250px;
+    height:94px;
+    margin:15px 10px 0 8px;
+    overflow:hidden;
+}
+.aviation_logo_text .aviation_logo_text_title{
+	height: 26px;
+    line-height: 26px;
+    margin: 16px 0 14px 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.aviation_logo_text .aviation_logo_text_info{
+	font:16px/32px "微软雅黑";
+	height: 223px;
+    color: #484848;
+    text-indent:3em；
+}
+.aviation_logo_text .aviation_logo_text_foot{
+	height: 16px;
+    line-height: 16px;
+}
+.aviation_logo_text_foot a{
+	color:#0185b8;
+    text-decoration: none;
+    width:30%;
+    border-right:1px solid #0185b8;
+    float:left;
+    text-align:center;
+}
+.aviation_logo_text_foot .last{
+	 border-right:0px;
+}
+
+
+.aviation_flagship_content .aviation_flagship_content_right{
+	float:right;
+	width: 605px;
+	height: 424px;
+	/*padding: 0 20px 0 21px;*/
+}
+
+.city{
+	height:20px;
+	padding-left:49px;
+	line-height:20px;
+	font-size:14px;
+	margin-bottom:10px;
+}
+.city li{
+	float:left;
+	/*margin-top:12px;*/
+}
+.city a{
+	display:block;
+	color:#2d4b5f;
+	padding:0px 9px;
+	margin:0px 5px;
+	border-radius:3px;
+	/*background-color:#ff8800;*/
+	color:#000;
+}
+.city li .color{
+	color:#fff;
+	background-color:#ff8800;
+}
+.city li a:hover{
+	color:#fff;
+	background-color:#ff8800;
+}
+
+
+
+.aviation_sale_flight_list{
+
+}
+.aviation_sale_flight_list .aviation_sale_flight_item{
+	float:left;
+    width:50%;
+    height:46px;
+	border-right:1px solid #dedede;
+	font:12px/28px "微软雅黑";
+	box-sizing:border-box;
+}
+.sale_flight_list .no_border_bottom{
+	border-right:0px;
+}
+.aviation_sale_flight_item a{
+	display:block;
+	height:28px;
+    line-height:28px;
+    margin:10px;
+    color:#355976;
+    position:relative;
+}
+.aviation_sale_flight_item a:hover{
+	background-color:#ededed;
+}
+.aviation_sale_flight_item a span{
+	position:absolute;
+}
+.aviation_sale_flight_item a .sale_flight_item_city{
+	left:17px;
+	top:0px;
+}
+.aviation_sale_flight_item a .sale_flight_item_date{
+	left:100px;
+	top:0px;
+	color:#808080;
+}
+.aviation_sale_flight_item a .sale_flight_item_price{
+	left:165px;
+	top:0px;
+	font-size:22px;
+	color:#ff8800;
+}
+.aviation_sale_flight_item a .sale_flight_item_discount{
+	left:236px;
+	top:0px;
+	color:#808080;
+}
+.content .days_30{
+	padding:10px 30px 0px;
+ }
+.days_30 .days_30_head{
+	height:54px;
+	line-height:54px;
+ }
+.days_30_head h3{
+ 	float:left;
+	font-size:20px;
+	font-family:"微软雅黑";
+	color:#355976;
+	font-weight:normal;
+ }
+.days_30_head form{
+	float:left;
+	font-size:12px;
+	margin-left:20px;
+	height:54px;
+}
+.days_30_head form label{
+	color:#13334d;
+}
+.days_30_head form div{
+	float:left;
+}
+.days_30_head form .city_time{
+	padding-left:4px;
+	width:143px;
+	height:28px;
+	border:1px solid #c7d1e4;
+	border-radius:4px; 
+	margin-right:15px;
+}
+.days_30_head form .days_30_btn{
+	margin-top:15px;
+}
+
+.days_30 .days_30_content{
+	height:350px;
+}

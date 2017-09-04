@@ -1,0 +1,104 @@
+/*
+ * 工具样式表
+ */
+.clearfix{
+	*zoom:1
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.content .padding_t_b_26px{
+	padding:26px 0px;
+}
+.content .padding_b_0px{
+	padding-bottom:0px;
+}
+.content h3{
+	font:16px/16px "宋体";
+	padding-bottom:10px;
+	border-bottom:2px solid #ff684d;
+	font-weight: bold;
+	padding-left:8px;
+	float:left;
+}
+.city{
+	height:45px;
+	padding-left:8px;
+	line-height:22px;
+	font-size:12px;
+}
+.city li{
+	float:left;
+	margin-top:12px;
+}
+.city a{
+	display:block;
+	color:#2d4b5f;
+	padding:0px 10px;
+	margin:0px 5px;
+	border-radius: 3px;
+}
+.hotel_list{
+	margin-right:-10px;
+	margin-bottom:-10px;
+}
+.hotel_list .hotel_item{
+	float:left;
+	position:relative;
+	width:230px;
+	height:231px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.hotel_item .hotel_item_top{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:160px;
+	overflow:hidden;
+}
+.hotel_item .hotel_item_bottom{
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	width:212px;
+	height:70px;
+	border:1px solid #dddddd;
+	border-top:0px;
+	padding:0px 8px;
+	font-family:arial,"微软雅黑";
+	color:#2d4b5f;
+}
+.hotel_item_bottom h6{
+	font-size:14px;
+	font-weight:normal;
+	padding:8px 0px 5px;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.hotel_item_bottom div span{
+	float:right;
+	font-size:12px;
+	line-height:22px;
+	margin-top:8px;
+}
+.hotel_item_bottom div .num{
+	float:left;
+	font-size:28px;
+	line-height:30px;
+	margin-top:0px;
+	color:#ff5741;
+}
+.hotel_item a{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+}
+
